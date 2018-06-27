@@ -1,0 +1,28 @@
+{
+  "name": "mylodash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/lodash.js",
+  "scripts": {
+    "build": "parcel build ./lodash.js -d dist",
+    "dev": "parcel ./index.html -d dist --open",
+    "test": "npm run build && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwa2018/myLodash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nwa2018/myLodash/issues"
+  },
+  "homepage": "https://github.com/nwa2018/myLodash#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  },
+  "dependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^5.2.0"
+  }
+}
